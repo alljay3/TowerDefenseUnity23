@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public int damage = 1;
     public float speed = 2;
     public int giveMoney = 1;
-    public bool freezEffect = false;
+    [HideInInspector] public bool freezEffect = false;
     private MoveToWayPoints moveToWayPoints;
     private Coroutine coroutineDamageForSecond;
     public int curHp {get;set; }

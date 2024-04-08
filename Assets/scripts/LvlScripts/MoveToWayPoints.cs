@@ -5,8 +5,8 @@ using UnityEngine;
 public class MoveToWayPoints : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float Speed;
-    public Transform[] waypoints;
+    [HideInInspector]public float Speed;
+    [HideInInspector]public Transform[] waypoints;
     [HideInInspector]public bool flipX = false;
 
     SpriteRenderer ObjectSprite;
