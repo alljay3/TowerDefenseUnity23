@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2132956490433247657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4162054885599262063}
+  - component: {fileID: 4385869409762649278}
+  m_Layer: 0
+  m_Name: TowerCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4162054885599262063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132956490433247657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9187291, y: 0.43662447, z: -0.2095944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4385869409762649278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132956490433247657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e07a47d895def4a91f5a85f95cea7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjects:
+  - {fileID: 1404107922930890414, guid: 3ae9a7d19b5867a40857cb23dba1ba8a, type: 3}
+  - {fileID: 7339034488756352045, guid: ed54117ac2e8ce145becde7235239157, type: 3}
+  - {fileID: 4428545526115027374, guid: 3224c623e0240b34d85fb2b2c95eec9a, type: 3}
+  - {fileID: 1256992934876512632, guid: 0234f39746398fd4f8180623c7cb750b, type: 3}
+  - {fileID: 1404107922930890414, guid: e89edc3e3bcc03f41b31cd2aeba0d0ab, type: 3}
+  - {fileID: 7339034488756352045, guid: 6d15190c6f7089e41a8556e94a1f064f, type: 3}
+  - {fileID: 4428545526115027374, guid: a2e73656a4ca5e0408496610c6206546, type: 3}
+  - {fileID: 4428545526115027374, guid: 152fee2ae8d47f24b82c7fac917a19df, type: 3}
+  - {fileID: 1404107922930890414, guid: 7cd81dbe5eb17364d91883bca6134208, type: 3}
+  - {fileID: 1256992934876512632, guid: 6343c815958ddfe4b961f622a35ec18b, type: 3}
+  - {fileID: 1256992934876512632, guid: fb6f02148c9a7ab40833694c589053ed, type: 3}
