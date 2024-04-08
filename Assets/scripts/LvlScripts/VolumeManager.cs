@@ -45,11 +45,13 @@ public class VolumeManager: MonoBehaviour
         {
             AllUnMute();
             gameObject.GetComponent<Image>().sprite = SpriteEnable;
+            PlayerPrefs.SetInt("MusicEnabled", 0);
         }
         else
         {
             AllMute();
             gameObject.GetComponent<Image>().sprite = SpriteDisable;
+            PlayerPrefs.SetInt("MusicEnabled", 1);
         }
     }
 

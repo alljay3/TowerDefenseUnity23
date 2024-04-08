@@ -23,7 +23,6 @@ public class WinMenu : MonoBehaviour
             PlayerPrefs.SetInt("Lvl" + NumLevel, NewCountStars);
         Debug.Log(PlayerPrefs.GetInt("Lvl" + NumLevel));
         gameObject.GetComponent<StarsSet>().SetStarImage(NumLevel); // Устанавливает конечные звезды
-        SaveAndLoad.SaveDate("Lvl" + NumLevel); // Пропиши метод сейф дата, когда будешь уже ебашить по крупному)))))
     }
 
 

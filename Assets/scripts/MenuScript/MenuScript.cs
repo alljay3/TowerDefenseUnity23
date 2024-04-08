@@ -11,11 +11,11 @@ public class MenuScript : MonoBehaviour
     [SerializeField] private GameObject PlotPanel;
     private void Start()
     {
-        if (PlayerPrefs.GetInt("FirstStart") == 1)
+        if (PlayerPrefs.GetInt("FirstStart") == 0)
         {
             PlotPanel.SetActive(true);
         }
-        PlayerPrefs.SetInt("FirstStart", 0);
+        PlayerPrefs.SetInt("FirstStart", 1);
     }
     public void ChooseScene(string nameScene)
     {

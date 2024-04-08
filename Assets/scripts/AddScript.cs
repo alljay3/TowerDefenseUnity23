@@ -20,12 +20,4 @@ public class AddScript
     {
         Application.ExternalCall("GetPlayer");
     }
-    static public void SaveDate(string name, string value)
-    {
-
-    }
-    static public void LoadDate(string name, string value)
-    {
-
-    }
 }

@@ -13,11 +13,10 @@ public class SaveAndLoad
     }
     public static void LoadDate()
     {
-        FirstMenuScript.MusicUnable = true;
         PlayerPrefs.SetFloat("SoundVolue", 0.2f);
         PlayerPrefs.SetFloat("MusicVolue", 0.2f);
-        PlayerPrefs.SetInt("availableLevels", 4);
-        PlayerPrefs.SetInt("FirstStart", 1);
+        PlayerPrefs.SetInt("availableLevels", 12);
+        PlayerPrefs.SetInt("FirstStart", 0);
         PlayerPrefs.SetInt("Lvl1", 0);
         PlayerPrefs.SetInt("Lvl2", 0);
         PlayerPrefs.SetInt("Lvl3", 0);
@@ -30,5 +29,17 @@ public class SaveAndLoad
         PlayerPrefs.SetInt("Lvl10", 0);
         PlayerPrefs.SetInt("Lvl11", 0);
         PlayerPrefs.SetInt("Lvl12", 0);
+
+
+        //12312
+
+        if (PlayerPrefs.GetInt("MusicEnabled") != 0)
+        {
+            FirstMenuScript.MusicUnable = false;
+        }
+        else
+        {
+            FirstMenuScript.MusicUnable = true;
+        }
     }
 }
